@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.atguigu.test.IOCTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.448 s <<< FAILURE! - in com.atguigu.test.IOCTest
+test01(com.atguigu.test.IOCTest)  Time elapsed: 0.22 s  <<< ERROR!
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.atguigu.config.MainConfig]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'userService' for bean class [com.atguigu.tx.UserService] conflicts with existing, non-compatible bean definition of same name and class [com.atguigu.ext.UserService]
+	at com.atguigu.test.IOCTest.test01(IOCTest.java:77)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'userService' for bean class [com.atguigu.tx.UserService] conflicts with existing, non-compatible bean definition of same name and class [com.atguigu.ext.UserService]
+	at com.atguigu.test.IOCTest.test01(IOCTest.java:77)
+

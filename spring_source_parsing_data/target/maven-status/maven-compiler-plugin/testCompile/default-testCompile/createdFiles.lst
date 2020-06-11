@@ -1,0 +1,9 @@
+com\atguigu\test\IOCTest.class
+com\atguigu\test\IOCTest_PropertyValue.class
+com\atguigu\test\IOCTest_LifeCycle.class
+com\atguigu\test\IOCTest_AOP.class
+com\atguigu\test\IOCTest_Tx.class
+com\atguigu\test\IOCTest_Profile.class
+com\atguigu\test\IOCTest_Ext$1.class
+com\atguigu\test\IOCTest_AutoWired.class
+com\atguigu\test\IOCTest_Ext.class
